@@ -1,1 +1,28 @@
 Esercizi del corso di laboratorio di Python
+dopo il dollaro mettere "python", >>> aspetta i miei comandi
+3 TIPI Di errori esistono Domanda da esame: Syntax error (nella divisione no puntini: ma /), Runtime Error (durante esecuzione tipo 5/0), 
+Semantic Error
+// divisione tra interi: 3/2 fa 1, moltiplicazione *, elevamento a potenza doppio asterisco **
+metti spazio all'inizio segnala come errore: sintassi sbagliata (non sempre) 
+Semantic error: errore più difficile, istruzione scritta in moido corretto, 
+programma funziona ma non ci da il risultato che ci aspettiamo 
+
+Statement: comandi di un programma, quando andiamo a capo finisce istruzione che gli stiamo dando. 
+in generale ogni riga uno statement e NON PRODUCONO ALCU RISULTATO
+Statement di assegnazione: assegno a una variabile un qualcosa: tipo a= 3+2, a=a+1
+Modo per scrivere più statement nella stessa riga MA NON FARLO 
+IMPORT: permette di importare le isstruzioni scritte da altri-    "import" e qualcosa. Unico che produce risposta 
+commenti: parte importante per la scrittura del programma. Si fanno con simbolo cancelletto # che significa da qui in poi non considerare quello che scrivo
+commenti su più linee: triplo apice ''' commento '''
+KEYWORD: parole vietate, almeno 35
+type(4): mi dice cosa è la cosa tra parentesi la virgola va fatta con un punto . numeri con virgola "float"
+type('parola'): str del tipo stringa cioè insime eid caratteri 
+due cose sono uguali ==
+token=... 
+MAI VARIABILE CON UN NUMERO O CARATTERI SPECIALI 
+Espressioni producono un risultato: 1+1 python mi risponde con un numero 
+TIPI DI COMANDI: statement o espresioni 
+a= None (probta ad essere utilizzata ma la momento non contiene nulla). Con None mettere is se devo chiedere se a coincide con None. Non usare == (operatore di uguaglianza), non sempre funziona 
+Per scrivere le espressioni si usano gli operatori 
+Stringhe: operatore + dioventa COncatenazione (unione stringe), * ripetizione
+se voglio cambiare tipo di una variabile lo faccio con Casting: 
