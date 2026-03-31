@@ -42,16 +42,20 @@ for parola in lista_parole:
         conto = conto + 1 
 print(conto)
 
-testo_lista = list(testo)
-print (testo_lista)
+#testo_lista = list(testo)
+#print (testo_lista)
+
+#TERZO PUNTO ESERCIZIO : sbagliato 
+carattere = 'a'
+alfanumerici = 'abcdefghijklmnopqrstuvwxyz0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ'
+lista_alfanumerici = alfanumerici.split()
+count = 0 
+
+for carattere in testo:
+    if len (carattere) > 0:
+        count = count + 1 
+print (count) 
 
 
-#carattere = 'a'
-
-#alfanumerici = 'abcdef1234ABCD'
-#carattere in alfanumerici 
-
-
-
-for indice in [1,5,9,13]
-    lista_parola_riga
+###for indice in [1,5,9,13]
+    ##lista_parola_riga
