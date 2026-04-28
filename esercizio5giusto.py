@@ -77,7 +77,7 @@ def main():
     # misuro il tempo di partenza per la ricerca della soluzione
     start_time = time.time()            
     
-    tempo = 0            #definisco la variabile tempo 
+    tempo = 0            #definisco la variabile tempo : punto 1 es 5 
     lista_soluzioni = []
 
 

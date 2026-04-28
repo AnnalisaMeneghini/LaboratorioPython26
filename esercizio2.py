@@ -22,7 +22,7 @@ Burnt green, and blue and white.
 
 #risolvo la prima parte dell'esercizio
 
-#divido il testo in base al carattere \n = va a capo, individuo quindi le diverse righe 
+#divido il testo in base al carattere \n = va a capo, individuo quindi le diverse righe, 1
 lista_righe = testo.split('\n')
 
 contatore=0
@@ -33,7 +33,7 @@ for riga in lista_righe:
 print(contatore)
 
 
-#conto le parole del testo in base al carattere ' ' 
+#conto le parole del testo in base al carattere ' ' 2
 lista_parole = testo.split()
 #print(lista_parole)
 conto = 0
@@ -45,17 +45,27 @@ print(conto)
 #testo_lista = list(testo)
 #print (testo_lista)
 
-#TERZO PUNTO ESERCIZIO : sbagliato 
-carattere = 'a'
+#TERZO PUNTO ESERCIZIO : isalnum che in caso posso utilizzare
+#carattere = 'a'            #mi fa scorrere la lista di caratteri alfanumerici
 alfanumerici = 'abcdefghijklmnopqrstuvwxyz0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ'
-lista_alfanumerici = alfanumerici.split()
+lista_alfanumerici = testo.split()
 count = 0 
 
 for carattere in testo:
-    if len (carattere) > 0:
+    if carattere in alfanumerici:
+        print (carattere)     #per controllare che effettivemente torni, mi stampa caratteri tranne accenti, sapazi virgole: verifica
         count = count + 1 
 print (count) 
 
+#QUARTO PUNTO ESERCIZIO: 
+n = str(input("inserisci una lettera: \n"))          #n è una variabile che assumerà il valore della lettera \n per andare a capo, una questione di bellezza
+count = 0
+
+for x in testo: #scorro il testo carattere per carattere, x cambia valore in ogni lettera: ciao x prima è c poi i poi a etc
+    if (x == n): 
+        count = count + 1
+
+print(f"La lettera compare {count} volte nel testo")
 
 ###for indice in [1,5,9,13]
     ##lista_parola_riga
