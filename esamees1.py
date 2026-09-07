@@ -31,4 +31,4 @@ def int_input():               #mettere la parentesi vuota perchè non richide d
     return numero
 
 
-#
+# 3. funzione che generi lista se n pari, va diviso per 2 se dispari, va moltiplicato per 3 e aggiunto 1. continuo fino a 1 o lista + 100 numeri
